@@ -9,7 +9,6 @@ classDiagram
     class Calendar {
         +String name
         +Date startDate
-        +Date endDate
         +List<Event> events
         +addEvent(Event event)
         +removeEvent(Event event)
